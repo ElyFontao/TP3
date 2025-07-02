@@ -20,7 +20,7 @@ Este proyecto es parte del Sprint 3 de la diplomatura en desarrollo Frontend. Se
 
 ## 🚀 Link de despliegue
 
-👉https://app.netlify.com/projects/tp3-carrito/deploys/686516a096b18d73fa45417c
+👉https://68651b6ee5794f6ef8f9d5e3--tp3-carrito.netlify.app/
 
 
 
