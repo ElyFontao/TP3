@@ -1,12 +1,60 @@
-# React + Vite
+# 🛒 TP3 - Carrito de Compras con Contexto y Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es parte del Sprint 3 de la diplomatura en desarrollo Frontend. Se trata de una aplicación de carrito de compras construida con **React**, **useContext**, y **Tailwind CSS**, que incluye persistencia en **Local Storage** y modo **claro/oscuro**.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 🎯 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Lista de productos disponibles
+- ✅ Agregar productos al carrito sin duplicados
+- ✅ Aumentar o disminuir la cantidad de productos
+- ✅ Eliminar productos del carrito
+- ✅ Mostrar el precio total
+- ✅ Persistencia con Local Storage
+- ✅ Cambio de tema claro/oscuro usando `useContext`
+- ✅ Estilos modernos con Tailwind CSS
+- ✅ Despliegue en Netlify
+
+
+
+## 🚀 Link de despliegue
+
+👉https://app.netlify.com/projects/tp3-carrito/deploys/686516a096b18d73fa45417c
+
+
+
+## 🛠️ Cómo ejecutar el proyecto localmente
+
+1. Cloná este repositorio:
+
+```bash
+git clone https://github.com/ElyFontao/TP3.git
+cd TP3
+Instalá las dependencias:
+
+npm install
+Ejecutá el servidor de desarrollo:
+
+
+npm run dev
+Abrí en tu navegador: http://localhost:5173
+
+📦 Build para producción
+
+npm run build
+Los archivos de producción estarán en la carpeta /dist, listos para desplegar.
+
+📚 Tecnologías usadas
+React
+
+Vite
+
+Tailwind CSS
+
+Local Storage
+
+Netlify (para despliegue)
+
+Proyecto realizado como parte de la formación en desarrollo Frontend 2025 ✨
+
